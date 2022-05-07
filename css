@@ -1,0 +1,34 @@
+body {
+  background-color : lightpink;
+}
+
+li {
+        color: white;
+     font-size: 24px;
+      }
+
+h3{
+  color: lightcoral;
+    text-decoration: underline;
+}
+
+body{
+  text-align: center;
+  background-color: lightpink;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#yellow{
+  background-color: yellow;
+}
